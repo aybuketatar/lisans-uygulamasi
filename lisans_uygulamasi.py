@@ -12,7 +12,7 @@ def ustveri(lisansAdi):
     
     YazarAdi = input("YazarAdi: ")
     eserURL = input("Eser URL'si: ")
-    eserTarihi = input("Yayınlanma Tarihi (YYYY): ") 
+    eserTarihi = input("Yayınlanma Tarihi: ") 
 
     lisans_metni = "" 
     if lisansAdi == "CC0 1.0 (Kamu Malı)":
@@ -43,7 +43,7 @@ def ccby():
     ustveri("CC BY 4.0")
 
 def ccbysa():
-    print("\n") # Buraya bir \n ekledim, daha iyi görünüyor
+    print("\n")
     print("CC BY-SA Atıf-AynıLisanslaPaylaş (Attribution-ShareAlike): Kullanımda olan son sürümü 4.0’dır. Uluslararası olarak kullanılabilir. Resmi olarak Türkçe çevirisi yayınlanmıştır. Kaynak, atıf vermek ve aynı lisansı devam ettirmek kaydıyla ticari amaç da dahil olmak üzere kopyalanabilir, düzenlenebilir, dağıtılabilir ve yeniden kullanılabilir")
     ustveri("CC BY-SA 4.0")
 
@@ -106,5 +106,6 @@ menu.opsiyon_ekle("Tüm Kayıtlı Eserleri Göster", tum_eserleri_goster)
 
 print("Program başlatılıyor...")
 menu.menuOlustur()
+
 
    
